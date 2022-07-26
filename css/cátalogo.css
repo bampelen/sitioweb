@@ -1,0 +1,661 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 844px;
+    width: 390px;
+    display: flex;
+
+
+}
+
+.caja{
+    display: flex;
+    width: 390px;
+    height: 8rem;
+    background-color: rgb(193, 187, 187);
+}
+
+.explorar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 15rem;
+    color:gray;
+    margin-top: 2rem;
+
+}
+
+
+.filtrar{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+    font-size: x-large;
+    color:gray;
+    margin-left: 8rem;
+    
+}
+
+.caja_padre{
+    display: flex;
+    flex-direction: row;
+    width: 390px;
+    height: 20rem;
+    margin-left: 0px;
+}
+
+
+
+.boton{
+    display: flex;
+    width: 390px;
+    height: 10rem;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.ventana{
+    display: flex;
+    width: 16rem;
+    height: 16.7rem;
+    background-color: rgb(189, 189, 189);
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+.triangulo{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-bottom: 45px solid gray;
+    border-left:30px solid transparent;
+    border-right: 30px solid transparent;
+    margin-bottom: 3rem;
+    margin-top: 7.4rem;
+    margin-left: 2.5rem;
+}
+
+.triangulo1{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-bottom: 69px solid gray;
+    border-left:45px solid transparent;
+    border-right: 45px solid transparent;
+   margin-left: -4rem;
+    margin-top: 5rem;
+}
+
+.opcion{
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(105, 105, 105);
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+       
+
+
+.texto{
+    width: 20rem;
+    height: 16.7rem;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.texto p{
+        color: rgb(121, 118, 118);
+        font-size: medium;
+
+}
+
+.texto a{
+    text-decoration: none;
+}
+
+.texto h1{
+    color: rgb(71, 71, 71);
+    font-size: large;
+    text-decoration: none;
+}
+
+.label1{
+    height: 2rem;
+    width: 6rem;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    justify-content: center;
+    border-radius: 0.5%;
+}
+
+.label1 p{
+        font-size: 1.5rem;
+        padding-top: 0.1rem;
+        text-align: center;
+        color: white;
+        
+
+}
+
+.comentarios{
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.comentarios p{
+ font-size: 1.5rem;
+ margin-right: 1rem;
+margin-left: 1rem;
+}
+ .linea{
+    height: 0.1rem;
+    width: 390px;
+ }
+
+
+
+
+ .caja_padre2{
+    display: flex;
+    flex-direction: row;
+    width: 390px;
+    height: 20rem;
+    margin-left: 0px;
+}
+
+
+
+.boton2{
+    display: flex;
+    width: 390px;
+    height: 10rem;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.ventana2{
+    display: flex;
+    width: 16rem;
+    height: 16.7rem;
+    background-color: rgb(189, 189, 189);
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+.triangulo2_1{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-bottom: 45px solid gray;
+    border-left:30px solid transparent;
+    border-right: 30px solid transparent;
+    margin-bottom: 3rem;
+    margin-top: 7.4rem;
+    margin-left: 2.5rem;
+}
+
+.triangulo2{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-bottom: 69px solid gray;
+    border-left:45px solid transparent;
+    border-right: 45px solid transparent;
+   margin-left: -4rem;
+    margin-top: 5rem;
+}
+
+.opcion{
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(105, 105, 105);
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+       
+
+
+.texto2{
+    width: 18rem;
+    height: 16.7rem;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.texto2 p{
+        color: rgb(121, 118, 118);
+        font-size: medium;
+}
+
+.texto2 a{
+    text-decoration: none;
+}
+
+.texto2 h1{
+    color: rgb(71, 71, 71);
+    font-size: large;
+}
+
+.papa_label2{
+    height: 2rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+
+
+
+.label2{
+    height: 2rem;
+    width: 6rem;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 0.5%;
+}
+
+.label2_1{
+    height: 2rem;
+    width: 6rem;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 0.5%;
+    margin-left: 1rem;
+
+}
+
+.label2 p{
+        font-size: 1.5rem;
+        padding-top: 0.1rem;
+        text-align: center;
+        color: white;
+        
+
+}
+
+
+
+.label2_1 p{
+    font-size: 1.5rem;
+    padding-top: 0.1rem;
+    text-align: center;
+    color: white;
+    
+
+}
+
+.comentarios2{
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.comentarios2 p{
+ font-size: 1.5rem;
+ margin-right: 1rem;
+margin-left: 1rem;
+}
+ .linea2{
+    height: 0.1rem;
+    width: 390px;
+ }
+
+
+ .caja_padre3{
+    display: flex;
+    flex-direction: row;
+    width: 390px;
+    height: 20rem;
+    margin-left: 0px;
+}
+
+
+
+.boton3{
+    display: flex;
+    width: 390px;
+    height: 10rem;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.ventana3{
+    display: flex;
+    width: 16rem;
+    height: 16.7rem;
+    background-color: rgb(189, 189, 189);
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+.triangulo3_1{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-bottom: 45px solid gray;
+    border-left:30px solid transparent;
+    border-right: 30px solid transparent;
+    margin-bottom: 3rem;
+    margin-top: 7.4rem;
+    margin-left: 2.5rem;
+}
+
+.triangulo3{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-bottom: 69px solid gray;
+    border-left:45px solid transparent;
+    border-right: 45px solid transparent;
+   margin-left: -4rem;
+    margin-top: 5rem;
+}
+
+.opcion{
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(105, 105, 105);
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+       
+
+
+.texto3{
+    width: 18rem;
+    height: 16.7rem;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.texto3 p{
+        color: rgb(121, 118, 118);
+        font-size: medium;
+}
+
+.texto3 a{
+    text-decoration: none;
+}
+
+.texto3 h1{
+    color: rgb(71, 71, 71);
+    font-size: large;
+}
+
+.papa_label3{
+    height: 2rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+
+
+
+.label3{
+    height: 2rem;
+    width: 6rem;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 0.5%;
+}
+
+.label3_1{
+    height: 2rem;
+    width: 6rem;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 0.5%;
+    margin-left: 1rem;
+
+}
+
+
+.label3 p{
+        font-size: 1.5rem;
+        padding-top: 0.1rem;
+        text-align: center;
+        color: white;
+        
+
+}
+
+.label3_1 p{
+    font-size: 1.5rem;
+    padding-top: 0.1rem;
+    text-align: center;
+    color: white;
+    
+
+}
+
+.comentarios3{
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.comentarios3 p{
+ font-size: 1.5rem;
+ margin-right: 1rem;
+margin-left: 1rem;
+}
+ .linea3{
+    height: 0.1rem;
+    width: 390px;
+ }
+
+
+
+
+
+
+ .caja_padre4{
+    display: flex;
+    flex-direction: row;
+    width: 390px;
+    height: 20rem;
+    margin-left: 0px;
+}
+
+
+
+.boton4{
+    display: flex;
+    width: 390px;
+    height: 10rem;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.ventana4{
+    display: flex;
+    width: 16rem;
+    height: 16.7rem;
+    background-color: rgb(189, 189, 189);
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+.triangulo4_1{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-bottom: 45px solid gray;
+    border-left:30px solid transparent;
+    border-right: 30px solid transparent;
+    margin-bottom: 3rem;
+    margin-top: 7.4rem;
+    margin-left: 2.5rem;
+}
+
+.triangulo4{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-bottom: 69px solid gray;
+    border-left:45px solid transparent;
+    border-right: 45px solid transparent;
+   margin-left: -4rem;
+    margin-top: 5rem;
+}
+
+.opcion{
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(105, 105, 105);
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+       
+
+
+.texto4{
+    width: 18rem;
+    height: 16.7rem;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.texto4 p{
+        color: rgb(121, 118, 118);
+        font-size: medium;
+}
+
+.texto4 a{
+    text-decoration: none;
+}
+
+.texto4 h1{
+    color: rgb(71, 71, 71);
+    font-size: large;
+}
+
+.papa_label{
+    height: 2rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.label4{
+    height: 2rem;
+    width: 6rem;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 0.5%;
+}
+
+.label4_1{
+    height: 2rem;
+    width: 6rem;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    border-radius: 0.5%;
+    margin-left: 1rem;
+}
+
+
+.label4 p{
+        font-size: 1.5rem;
+        padding-top: 0.1rem;
+        text-align: center;
+        color: white;
+        
+
+}
+
+
+.label4_1 p{
+    font-size: 1.5rem;
+    padding-top: 0.1rem;
+    text-align: center;
+    color: white;
+    
+
+}
+
+.comentarios4{
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.comentarios4 p{
+ font-size: 1.5rem;
+ margin-right: 1rem;
+margin-left: 1rem;
+}
+ .linea4{
+    height: 0.1rem;
+    width: 390px;
+ }
+
+.barra{
+    width: 390px;
+    height: 3.2rem;
+    position: sticky;
+    bottom: 0rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(180, 177, 177);
+}
+
+
+
+
+
+.casita, .lupa, .buscador, .comentar, .notificaciones{
+    width: 6rem;
+    height: 3.2rem;
+    text-align: center;
+    padding-top: 0.6rem;
+ 
+}
+
+.casita img, .lupa img, .buscador img, .comentar img, .notificaciones img{
+    width: 2rem;
+    height: 2rem;
+    margin: 1;
+}

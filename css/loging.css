@@ -1,0 +1,136 @@
+.cuadro2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+}
+
+.nombre_usuario{
+    color:grey;
+    font-size: medium;
+    position: absolute;
+    transform: translateY(-50%);
+    pointer-events: none;
+    left: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+    margin-bottom: 8rem;
+
+}
+.datos{
+   display: flex;
+    margin-top: 14px;
+}
+.datos input{
+    width: 27.5rem;
+    padding: 0.5px;
+    height: 3rem;
+    border-top: none;
+    background-color: white;
+    outline: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    border-left: none;
+    margin-left: 6.5rem;
+    border-right: none;
+    border-color: grey;
+
+}
+.datos input:focus~ label,
+.datos input:focus ~ label{
+    bottom:34rem;
+}
+
+
+
+.contraseña{
+    color:grey;
+    font-size: medium;
+    position: absolute;
+    transform: translateY(-50%);
+    pointer-events: none;
+    left: 7rem;
+    margin-bottom: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;  
+    
+}
+
+.datos2{
+    display: flex;
+    margin-top: 5rem;
+}
+.datos2 input{
+    display: flex;
+    width: 27.5rem;
+    padding: 0.5px;
+    height: 3rem;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: white;
+    outline: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    border-color: grey;
+    margin-left:6.5rem;
+    
+
+}
+
+.datos2 input:focus ~ label,
+.datos2 input:focus ~ label{
+    bottom:24rem;
+}
+
+
+
+.olvidar_contraseña{
+    color:gray;
+    font-size: medium;
+    display: flex;
+    margin-top: 1px;
+    cursor: pointer;
+    margin-left: 23.5rem;
+}
+
+
+.bt_login{
+    display: flex;
+    width: 27.5rem;
+    height: 5rem;
+    background-color: rgb(214, 210, 210);
+    border:none;
+    border-radius: 2rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 6.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"]:hover{
+    transition: 5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+.cuadro{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.logo{
+    border-radius: 100%;
+    display: flex;
+    margin-top: 15rem;
+    margin-left: 6rem;
+}
+
+.cuadro2{
+    width: 390px;
+    height: 100px;
+    margin-bottom: 15rem;
+
+}
